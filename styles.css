@@ -1,0 +1,50 @@
+body {
+    font-size: 17px;
+    font-family: ubuntu;
+    background-color: whitesmoke;
+}
+
+nav {
+    background-color: black;
+    color: whitesmoke;
+    width: 100%;
+    height: 2.3em;
+}
+nav ul li {
+    text-align: right;
+    display: inline-block;
+    margin: 8px 15px;
+}
+
+a:hover {
+    color: gray;
+    cursor: pointer;
+}
+header {
+    color: white;
+    padding: 0.88em;    
+    background-image: url("./resources/Theme.jpg");
+    background-color: grey;
+    height: 500px; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+div {
+    text-align: center;
+}
+div img {
+    max-height: 350px;
+    width: auto;
+    margin: 0.88em;
+    border-radius: 1%;
+}
+footer {
+    background-color: black;
+    color: whitesmoke;
+    text-align: right;
+}
+footer ul li {
+    display: inline-block;
+    margin: 8px 15px;
+}
